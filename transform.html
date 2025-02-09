@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transforms</title>
+    <style>
+
+        *{
+            margin-top: 2%;
+        }
+        h1{
+            text-align: center;
+        }
+        .transforms,img{
+            align-items: center;
+            text-align: center; 
+        }
+        img{
+         margin-top: 3%; 
+        }
+        .b1:hover ~ img{
+        border: 2px solid rgba(128, 0, 128, 0.9);
+        }
+        .b2:hover~img{
+            transform: translate(100px,0px)
+        }
+        .b3:hover~img{
+            transform: scale(1.5);
+        }
+        .b4:hover~img{
+            transform: rotate(180deg);
+        }
+        .b5:hover~img{
+            transform: skew(10deg,23deg);
+        }
+    </style>
+</head>
+<body>
+    <h1>2D-Tranforms</h1>
+    <div class="transforms">
+        <button class="b1">Border</button>
+        <button class="b2">Translate</button>
+        <button class="b3">Scale</button>
+        <button class="b4">Rotate</button>
+        <button class="b5">Skewing</button>
+        <br><br>
+        <img src="https://img.freepik.com/free-vector/cute-rabbit-holding-carrot-cartoon-vector-icon-illustration-animal-nature-icon-concept-isolated_138676-5071.jpg" width="150px" height="150px" alt="image not found">
+        </div>
+    
+</body>
+</html>
